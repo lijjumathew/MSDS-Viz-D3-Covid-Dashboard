@@ -98,10 +98,10 @@ var div = d3.select("#my_dataviz")
 			
 			  
 // Load in my states data!
-d3.csv("./US-Covid_totals_State.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/lijjumathew/MSDS-Viz-D3-Covid-Dashboard/master/US-Covid_totals_State.csv", function(data) {
 
 
-d3.json("./us-states.json", function(json) {
+d3.json("https://raw.githubusercontent.com/lijjumathew/MSDS-Viz-D3-Covid-Dashboard/master/us-states.json", function(json) {
 
 var list_total = [];
 // Loop through each state data value in the .csv file
